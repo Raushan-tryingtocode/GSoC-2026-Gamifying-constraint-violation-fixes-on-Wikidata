@@ -1,3 +1,4 @@
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 # ⚔️ Wikidata Gamification: Constraint Violation Fixer
 **Turning Data Quality into a Quest.**
 
@@ -18,10 +19,10 @@ We are building a bridge between the **Wikibase Quality Constraints** extension 
 - **The Solution:** A mobile-friendly, XP-based interface where users fix "Rare" to "Mythic" violations to earn ranks and badges.
 
 ## 🛠 Tech Stack For This Project
-- **Backend:** Python (REST API, OAuth)
-- **Frontend:** React.js + CSS (Mobile-responsive)
-- **Data:** SQL, SPARQL & MediaWiki API (`action=wbcheckconstraints`)
-- **Hosting:** Wikimedia Toolforge
+- **Backend:** ![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54) (REST API, OAuth)
+- **Frontend:** ![React](https://img.shields.io/badge/react-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB) + ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=flat&logo=css3&logoColor=white) (Mobile-responsive)
+- **Data:** ![SQL](https://img.shields.io/badge/sql-%2307405e.svg?style=flat&logo=postgresql&logoColor=white), ![SPARQL](https://img.shields.io/badge/SPARQL-%236666ff.svg?style=flat&logo=semantic-web&logoColor=white) & ![MediaWiki](https://img.shields.io/badge/MediaWiki%20API-%23990000.svg?style=flat&logo=mediawiki&logoColor=white) (`action=wbcheckconstraints`)
+- **Hosting:** ![Toolforge](https://img.shields.io/badge/Toolforge-%2300af89.svg?style=flat&logo=wikimedia-commons&logoColor=white)
 
 ## 📈 Current Project Status
 | Milestone | Status |
