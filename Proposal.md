@@ -10,7 +10,12 @@ I am passionate about gaming mechanics and their potential to improve data quali
 
 ## 📚 Project Understanding & Research
 * **Goal:** Increase the efficiency of fixing Wikidata constraint violations by integrating them into the Distributed Game framework.
-* **Current Status:** Performing a deep dive into the Distributed Game codebase and exploring the Wikibase Quality Constraints extension.
+* **Current Status:**
+* For security, I’m using Wikimedia OAuth 2.0. This means the app never even touches a user's password. Instead, it uses temporary 'keys' (access tokens) to perform edits. It’s the gold standard for Wikimedia apps and keeps everything 100% secure and compliant.
+* I’ve been looking at how XTools handles data. Instead of just "asking" the standard API for info (which is slow and would make the game laggy), I'm planning to use Direct Database Access through Toolforge. This lets the backend pull a whole bunch of item labels at once directly from the SQL replicas, making the game feel way faster for the player.
+* Since I am assuming most users will play on their phone, adding a neat dark mode seems to be the next step in the UI phase.
+* I'm planning to add a simple "Report" button on each task so, if a user thinks a violation fix is wrong or the instructions are confusing, they can flag it. It would help improve the quality of the game
+* Adding a community also seems like a good option but I am not sure about increasing the complexity of the project yet.
 
 ### Technical Stack
 * **Python:** Primary language for backend logic and Pywikibot integration.
@@ -19,7 +24,7 @@ I am passionate about gaming mechanics and their potential to improve data quali
 * **Databases:** Proficient in SQL; currently leveling up in SPARQL for Wikidata queries.
 
 ---
-
+  
 ## 🛠 Microtask Progress
 
 ### Microtask 1: Analysis Report
