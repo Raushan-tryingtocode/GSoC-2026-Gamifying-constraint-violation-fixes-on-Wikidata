@@ -50,8 +50,8 @@ I am currently testing that regex locally to see if it handles edge cases like n
        - The 1st level has an 'Experience' cap of 100XP and after each level it increases by 15%. So. by the time the User/Player levels up to the 5th level his XP to level-up to the next level would be 175XP and so-on.
  
 - **Stucture:**
-| User Rank| Level-up Cap | Violation Limit||
-| --- | --- | --- |
+| User Rank | Level-up Cap | Violation Limit | 
+| :--- | :--- | :--- | :--- |
 | **Apprentice ** | lvl.1-10 | Can only attempt Rare level violations |
 | **Junior ** | lvl.11- 25 | Can only attempt Unique level violations and below  |
 | **Senior ** | lvl.26-50 | Can only attempt Legendary level violations and below  |
@@ -61,18 +61,18 @@ I am currently testing that regex locally to see if it handles edge cases like n
 
 
 **Detailed Timeline**
-|** Pre-coding period Plans** | **Present - GSoC 2026** | **Goals**
+|** Pre-coding period Plans** | **Present - GSoC 2026** | **Goals** |
 | **Proposal & Microtasks** | March 17 – March 31 | Finalizing the proposal and finishing Microtasks 1 & 2. |
 | **Community Bonding** | April 1 – May 4 | Chatting with mentors to finalize the plan and setting up my local dev environment. |
 
- |**Foundation & Data Pipeline** | Week 1- Week 3 
+ **Foundation & Data Pipeline**  Week 1- Week 3 
 
 * **Research**: Documenting the transition from legacy PHP logic to a modern Python REST architecture. I will investigate the specific response schemas of the wbcheckconstraints API to map property types to initial difficulty tiers. 
 * **Coding**: I will develop the core Backend Fetcher Module in python.  This Python script will handle the OAuth handshake and securely fetch live violations so that the users can access them and fix the violations according to the constraint.
 * **Documentation**: I will be creating a neat documentation of User onboarding guide and a "Developer Readme" for the frontend components. 
 
 
- |** The Core of the Game **| Week 4 - Week 6
+ ** The Core of the Game **  Week 4 - Week 6 
 
 * **Research**:  I will research the UI/UX responsiveness on mobile devices and make sure the "Apprentice" level fixes are easy and can be done in less than a minute.
 * **Coding**: Building the primary user interface in HTML, CSS and React.js for a smooth experience. By the end of this goal, a user should be able to log in, see a Level 1 task, and successfully push a fix to Wikidata.
@@ -81,7 +81,7 @@ I am currently testing that regex locally to see if it handles edge cases like n
 **Mid-term Deliverable: ** A simple game with working UI, log-in page and fast level 1 fixes.
 
 
- |** XP Engine & Leveling Logic ** | Week 7 - Week 9 
+ ** XP Engine & Leveling Logic **  Week 7 - Week 9 
 
 
 * **Research**:  I will be researching property constraints to sort them into various different level and assign their respective levels.
@@ -91,7 +91,7 @@ this will increase the difficulty and interest for the user as they fix higher l
 * **Documentation**: A comprehensive "Gamification Spec" detailing the math and logic behind the ranking system.
 
 
- |** Toolforge Deployment** | Week 10 - Week 12 
+ ** Toolforge Deployment**  Week 10 - Week 12 
 
 * **Research**:  Exploring the** 'Consensus Models'** for **Wikidata**. To ensure high data integrity, I was thinking of implementing a multi-tiered verification system requiring a three-point consensus from low-level contributors for automated commits, while any disputed edits are automatically escalated for High-level contributors review.
 * **Coding**: Developing the multi-user verification system. The final week will be dedicated to deploying the entire stack on Wikimedia Toolforge and performing tests and pre-commits.
