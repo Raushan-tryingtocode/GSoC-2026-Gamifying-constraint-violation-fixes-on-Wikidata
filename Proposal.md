@@ -70,6 +70,9 @@ Users start as an **Apprentice** (Lvl 1). The XP cap increases by **15%** per le
 | :--- | :--- | :--- |
 | **Proposal & Microtasks** | March 17 – March 31 | Finalizing proposal and finishing Microtasks 1 & 2. |
 | **Community Bonding** | April 1 – May 4 | Mentor consultation and local environment setup. |
+| **Wait time** |	April 1 - April 30 | Continuing Open sourcing and Upskilling necessary skills for the coding period |
+| **Community Bonding**	| May 1 – May 24 |	Chatting with mentors to finalize the plan and setting up my local dev environment.|
+| **Coding period begins** |	May 25 - final date |	12 Week Plan (mentioned below)|
 
 ### Coding Phase 1: Foundation & Data Pipeline (Week 1 - 3)
 * **Research:** Map `wbcheckconstraints` API schemas to difficulty tiers.
